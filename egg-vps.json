@@ -5,12 +5,12 @@
         "update_url": null
     },
     "exported_at": "2024-05-05T11:45:57+03:00",
-    "name": "VPS - Egg",
-    "author": "mrnitro2017@gmail.com",
-    "description": "Run a VPS in pterodactyl!",
+    "name": "VM - HOSTING",
+    "author": "admin@lylanodes.xyz",
+    "description": "LylaNodes VM - EGG",
     "features": null,
     "docker_images": {
-        "quay.io\/ydrag0n\/pterodactyl-vps-egg": "quay.io\/ydrag0n\/pterodactyl-vps-egg"
+        "quay.io\/vekalmao\/lylanodes-vps-egg": "quay.io\/vekalmao\/lylanodes-vps-egg"
     },
     "file_denylist": [],
     "startup": "bash install.sh",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\ncd \/mnt\/server\/",
-            "container": "quay.io\/ydrag0n\/pterodactyl-vps-egg",
+            "container": "quay.io\/vekalmao\/lylanodes-vps-egg",
             "entrypoint": "bash"
         }
     },

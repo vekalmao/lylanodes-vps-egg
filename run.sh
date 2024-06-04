@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 NC='\033[0m'
@@ -22,7 +22,7 @@ printf "root@LylaNodesVM:${DIR}#                                                
 
 run_cmd() {
     while true; do
-        read -p "root@LylaNodesVM:$DIR# " CMD
+        read -e -p "root@LylaNodesVM:$DIR# " CMD
         eval "$CMD"
 
         # Update DIR after executing command

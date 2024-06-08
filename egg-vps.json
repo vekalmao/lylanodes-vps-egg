@@ -10,7 +10,7 @@
     "description": "LylaNodes VM - EGG",
     "features": null,
     "docker_images": {
-        "quay.io\/vekalmao\/lylanodes-vps-egg": "quay.io\/vizle\/lylanodes-vps-egg"
+        "quay.io\/vizle\/lylanodes-vps-egg": "quay.io\/vizle\/lylanodes-vps-egg"
     },
     "file_denylist": [],
     "startup": "bash install.sh",

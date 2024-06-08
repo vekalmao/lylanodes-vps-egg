@@ -10,7 +10,7 @@
     "description": "LylaNodes VM - EGG",
     "features": null,
     "docker_images": {
-        "quay.io\/vekalmao\/lylanodes-vps-egg": "quay.io\/vekalmao\/lylanodes-vps-egg"
+        "quay.io\/vekalmao\/lylanodes-vps-egg": "quay.io\/vizle\/lylanodes-vps-egg"
     },
     "file_denylist": [],
     "startup": "bash install.sh",
@@ -23,7 +23,7 @@
     "scripts": {
         "installation": {
             "script": "#!\/bin\/bash\r\n\r\ncd \/mnt\/server\/",
-            "container": "quay.io\/vekalmao\/lylanodes-vps-egg",
+            "container": "quay.io\/vizle\/lylanodes-vps-egg",
             "entrypoint": "bash"
         }
     },

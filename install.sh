@@ -37,7 +37,7 @@ if [ ! -e "$ROOTFS_DIR/.installed" ]; then
   printf "\033c"
   echo "${GREEN}╭────────────────────────────────────────────────────────────────────────────────╮${NC}"
   echo "${GREEN}│                                                                                │${NC}"
-  echo "${GREEN}│                             LylaNodes VM - EGG                                │${NC}"
+  echo "${GREEN}│                             LylaNodes - VPS Configuartion                                │${NC}"
   echo "${GREEN}│                                                                                │${NC}"
   echo "${GREEN}│                           ${RED}© 2021 - 2024 ${PURPLE}vizle${GREEN}                               │${NC}"
   echo "${GREEN}│                                                                                │${NC}"

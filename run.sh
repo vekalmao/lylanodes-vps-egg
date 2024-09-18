@@ -21,7 +21,7 @@ printf "                                                                        
 printf "root@LylaNodesVM:${DIR}#                                                                             \n"
 
 run_cmd() {
-    read -p "root@LylaNodesVM:$DIR# " CMD
+    read -p "root@[LylaNodesVPS]:$DIR# " CMD
     eval "$CMD"
 
     # Update DIR after executing command
@@ -30,12 +30,12 @@ run_cmd() {
         DIR="~${PWD#/root}"
     fi
     
-    printf "root@LylaNodesVM:$DIR# \n"
+    printf "root@[LylaNodesVPS]:$DIR# \n"
     run_user_cmd
 }
 
 run_user_cmd() {
-    read -p "user@LylaNodesVM:$DIR# " CMD2
+    read -p "user@[LylaNodesVPS]:$DIR# " CMD2
     eval "$CMD2"
 
     # Update DIR after executing command
@@ -44,7 +44,7 @@ run_user_cmd() {
         DIR="~${PWD#/root}"
     fi
     
-    printf "root@LylaNodesVM:$DIR# \n"
+    printf "root@[LylaNodesVPS]:$DIR# \n"
     run_cmd
 }
 
